@@ -19,10 +19,12 @@ npm run dev      # start the dev server on http://localhost:5173
 
 | Command           | Description                          |
 | ----------------- | ------------------------------------ |
-| `npm run dev`     | Start the Vite dev server            |
-| `npm run build`   | Type-check and build for production  |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint`    | Lint the codebase                    |
+| `npm run dev`        | Start the Vite dev server                  |
+| `npm run build`      | Type-check and build for production        |
+| `npm run preview`    | Preview the production build locally       |
+| `npm run lint`       | Lint the codebase                          |
+| `npm test`           | Run the test suite once                    |
+| `npm run test:watch` | Run the tests in watch mode                |
 
 ## The kata
 
