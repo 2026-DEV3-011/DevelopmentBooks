@@ -44,4 +44,19 @@ describe('calculatePrice', () => {
       calculatePrice(['clean-code', 'clean-code', 'clean-coder']),
     ).toBe(145)
   })
+
+  it('applies the cheapest grouping of two sets of four over a five and a three', () => {
+    expect(
+      calculatePrice([
+        'clean-code',
+        'clean-code',
+        'clean-coder',
+        'clean-coder',
+        'clean-architecture',
+        'clean-architecture',
+        'tdd',
+        'legacy',
+      ]),
+    ).toBe(320)
+  })
 })
