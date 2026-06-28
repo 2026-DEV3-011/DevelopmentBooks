@@ -38,4 +38,10 @@ describe('calculatePrice', () => {
       ]),
     ).toBe(187.5)
   })
+
+  it('applies a 5% discount to the distinct pair and full price to the duplicate', () => {
+    expect(
+      calculatePrice(['clean-code', 'clean-code', 'clean-coder']),
+    ).toBe(145)
+  })
 })
