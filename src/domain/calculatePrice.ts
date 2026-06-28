@@ -2,6 +2,9 @@ const BOOK_PRICE = 50
 
 const DISCOUNT_BY_DISTINCT_COUNT: Record<number, number> = {
   2: 0.05,
+  3: 0.1,
+  4: 0.2,
+  5: 0.25,
 }
 
 export function calculatePrice(bookIds: string[]): number {
