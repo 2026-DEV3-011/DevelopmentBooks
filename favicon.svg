@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Stack of books">
+  <!-- bottom book -->
+  <rect x="8" y="40" width="48" height="12" rx="2" fill="#2a9d8f"/>
+  <rect x="8" y="47.5" width="48" height="2.6" rx="1.3" fill="#fdf6e3"/>
+  <rect x="12" y="40" width="3.2" height="12" fill="#1f7a6f"/>
+
+  <!-- middle book (offset right) -->
+  <rect x="13" y="26" width="44" height="12" rx="2" fill="#e76f51"/>
+  <rect x="13" y="33.5" width="44" height="2.6" rx="1.3" fill="#fdf6e3"/>
+  <rect x="50" y="26" width="3.2" height="12" fill="#c5543a"/>
+
+  <!-- top book (offset left) -->
+  <rect x="9" y="12" width="46" height="12" rx="2" fill="#e9c46a"/>
+  <rect x="9" y="19.5" width="46" height="2.6" rx="1.3" fill="#fdf6e3"/>
+  <rect x="13" y="12" width="3.2" height="12" fill="#c99e42"/>
+
+  <!-- bookmark hanging from top book -->
+  <rect x="42" y="12" width="4.2" height="10" fill="#264653"/>
+</svg>
