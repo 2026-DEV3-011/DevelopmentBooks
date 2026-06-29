@@ -21,7 +21,7 @@ export function Basket() {
           ))}
         </ul>
       )}
-      <p>
+      <p data-testid="basket-total">
         <strong>Total: {total.toFixed(2)} EUR</strong>
       </p>
     </aside>
