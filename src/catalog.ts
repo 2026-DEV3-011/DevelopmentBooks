@@ -32,3 +32,7 @@ export const books: Book[] = [
     year: 2004,
   },
 ]
+
+export function findBook(id: string): Book | undefined {
+  return books.find((book) => book.id === id)
+}

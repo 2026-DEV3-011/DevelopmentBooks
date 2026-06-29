@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react'
 
-export type BasketItems = Record<string, number>
+import type { BasketItems } from './basketItems'
 
 export interface BasketContextValue {
   items: BasketItems
