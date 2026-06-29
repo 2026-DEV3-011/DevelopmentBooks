@@ -52,6 +52,12 @@ src/
   catalog.ts     The hardcoded book catalog
 ```
 
+## Deployment
+
+A GitHub Actions workflow ([`deploy.yml`](.github/workflows/deploy.yml)) builds and
+publishes the app to GitHub Pages on pushes to `main`. ⚠️ Work in progress — not yet
+fully tested.
+
 ## Design decisions
 
 - **TDD throughout the domain.** The pricing logic was built test-first
